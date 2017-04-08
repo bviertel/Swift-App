@@ -18,14 +18,19 @@ class ViewController: UIViewController {
     
     @IBAction func buttonTapped(_ sender: Any) {
         
-        /* Ensure that when calling a value from a text field that you do the 'varName.text!'. The exclamation point at the end removes an 'Optional' print out text thing, so that it just prints out exactly as seen in the text field. */
+        let addition = false
         
-        print(text1.text!)
-        print(text2.text!)
+        if addition {
+            coolLabel.text = "Answer is...\(Double(text1.text!)! + Double(text2.text!)!)"
+        } else {
+            
+            coolLabel.text = "Answer is...\(Double(text1.text!)! - Double(text2.text!)!)"
+        }
         
-        /* To 'Interpolate' Int or Double to String, you can put everything in 'String()' or utilize the backslash '\()' with all the stuff in the parentheses. */
         
-        coolLabel.text = "Answer is...\(Double(text1.text!)! + Double(text2.text!)!)"
+        
+        
+        
         
     
     }
