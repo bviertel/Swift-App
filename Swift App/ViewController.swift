@@ -23,6 +23,11 @@ class ViewController: UIViewController {
         print(text1.text!)
         print(text2.text!)
         
+        /* To 'Interpolate' Int or Double to String, you can put everything in 'String()' or utilize the backslash '\()' with all the stuff in the parentheses. */
+        
+        coolLabel.text = "Answer is...\(Double(text1.text!)! + Double(text2.text!)!)"
+        
+    
     }
     
         
