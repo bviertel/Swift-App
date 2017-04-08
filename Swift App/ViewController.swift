@@ -14,6 +14,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var coolLabel: UILabel!
     
+    @IBOutlet weak var text1: UITextField!
+    
+    @IBOutlet weak var text2: UITextField!
+    
     var tapCount = 0
     
     /* These are linked to the buttons. You need to link the visual button to the code in order to do anything with it. In the following example there are two linked buttons. See above for linking. */
