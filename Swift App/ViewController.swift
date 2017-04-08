@@ -3,7 +3,7 @@
 //  Swift App
 //
 //  Created by Brandon Viertel on 4/7/17.
-//  Copyright © 2017 Brandon. All rights reserved.
+//  Copyright © 2017 Brandon. All rights reserved...
 //
 
 import UIKit
