@@ -34,15 +34,8 @@
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fqt-44-ttm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qUZ-Fv-A5r">
-                                <rect key="frame" x="133" y="99" width="109" height="30"/>
-                                <state key="normal" title="PUSH ME NEXT"/>
-                                <connections>
-                                    <action selector="buttonTapped2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Iv8-M8-PwA"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="beO-oa-afL">
-                                <rect key="frame" x="137.5" y="138" width="100" height="30"/>
+                                <rect key="frame" x="137.5" y="99" width="100" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="dKc-nd-1hP"/>
                                 </constraints>
@@ -51,7 +44,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IWY-e7-8uV">
-                                <rect key="frame" x="137.5" y="177" width="100" height="30"/>
+                                <rect key="frame" x="137.5" y="138" width="100" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="2rc-rD-feq"/>
                                 </constraints>
@@ -67,11 +60,9 @@
                             <constraint firstItem="p4K-ce-Xq1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="Oel-UT-zXy"/>
                             <constraint firstItem="IWY-e7-8uV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qc3-Th-XaW"/>
                             <constraint firstItem="kyw-4N-k2h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V7R-ew-aXr"/>
+                            <constraint firstItem="beO-oa-afL" firstAttribute="top" secondItem="kyw-4N-k2h" secondAttribute="bottom" constant="9" id="aLC-95-xyR"/>
                             <constraint firstItem="beO-oa-afL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bzr-Cc-6tt"/>
-                            <constraint firstItem="qUZ-Fv-A5r" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d3H-zH-pzF"/>
                             <constraint firstItem="IWY-e7-8uV" firstAttribute="top" secondItem="beO-oa-afL" secondAttribute="bottom" constant="9" id="rAy-ms-B2Y"/>
-                            <constraint firstItem="beO-oa-afL" firstAttribute="top" secondItem="qUZ-Fv-A5r" secondAttribute="bottom" constant="9" id="s7r-wk-lLC"/>
-                            <constraint firstItem="qUZ-Fv-A5r" firstAttribute="top" secondItem="kyw-4N-k2h" secondAttribute="bottom" constant="9" id="zKD-ho-T5S"/>
                         </constraints>
                     </view>
                     <connections>
